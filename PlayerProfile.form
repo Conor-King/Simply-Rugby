@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="simplyRugby.PlayerProfile">
+  <grid id="27dc6" binding="panelPlayerProfile" layout-manager="GridLayoutManager" row-count="4" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="767" height="445"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="4687" class="javax.swing.JButton" binding="btnBack">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Back"/>
+        </properties>
+      </component>
+      <component id="13b6c" class="javax.swing.JLabel" binding="lblTitleName">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Placeholder Name"/>
+        </properties>
+      </component>
+      <component id="8c867" class="javax.swing.JLabel" binding="lblTitlePosition">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Placeholder Position"/>
+        </properties>
+      </component>
+      <grid id="abd48" binding="panelPlayerInfo" layout-manager="GridLayoutManager" row-count="10" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="bevel-lowered"/>
+        <children>
+          <component id="36ed7" class="javax.swing.JLabel" binding="lblTitleDoB">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Date of birth: "/>
+            </properties>
+          </component>
+          <component id="5e81a" class="javax.swing.JLabel" binding="lblPlayerDoB">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Placeholder DoB"/>
+            </properties>
+          </component>
+          <component id="e65f9" class="javax.swing.JLabel" binding="lblTitleSruNum">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="SRU Number: "/>
+            </properties>
+          </component>
+          <component id="78f79" class="javax.swing.JLabel" binding="lblPlayerSRU">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Placeholder SRU"/>
+            </properties>
+          </component>
+          <component id="ac358" class="javax.swing.JLabel" binding="lblTitleAddress">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Address: "/>
+            </properties>
+          </component>
+          <component id="2241b" class="javax.swing.JLabel" binding="lblPlayerAddress">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Placeholder Address"/>
+            </properties>
+          </component>
+          <component id="818dd" class="javax.swing.JLabel" binding="lblTitlePostcode">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Postcode: "/>
+            </properties>
+          </component>
+          <component id="2825a" class="javax.swing.JLabel" binding="lblPlayerPostcode">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Placeholder Postcode"/>
+            </properties>
+          </component>
+          <component id="2b6de" class="javax.swing.JLabel" binding="lblTitlePhoneNum">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Phone Number: "/>
+            </properties>
+          </component>
+          <component id="7340a" class="javax.swing.JLabel" binding="lblPlayerPhoneNum">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Placeholder PhoneNum"/>
+            </properties>
+          </component>
+          <component id="8e8ed" class="javax.swing.JLabel" binding="lblTitleEmail">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Email: "/>
+            </properties>
+          </component>
+          <component id="90868" class="javax.swing.JLabel" binding="lblPlayerEmail">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Placeholder Email"/>
+            </properties>
+          </component>
+          <component id="c1e84" class="javax.swing.JLabel" binding="lblTitleDocName">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Doctor's Name: "/>
+            </properties>
+          </component>
+          <component id="b9c43" class="javax.swing.JLabel" binding="lblPlayerDocName">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Placeholder DocName"/>
+            </properties>
+          </component>
+          <component id="829e2" class="javax.swing.JLabel" binding="lblTitleDocPhone">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Doctor's Phone: "/>
+            </properties>
+          </component>
+          <component id="373cc" class="javax.swing.JLabel" binding="lblPlayerNoK">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Placeholder NextOfKin"/>
+            </properties>
+          </component>
+          <component id="e0de2" class="javax.swing.JLabel" binding="lblPlayerDocPhone">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Placeholder DocPhone"/>
+            </properties>
+          </component>
+          <component id="44e55" class="javax.swing.JLabel" binding="lblTitleNextOfKin">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Next Of Kin: "/>
+            </properties>
+          </component>
+          <component id="cb504" class="javax.swing.JLabel" binding="lblTitleNoKPhone">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Next Of Kin Phone: "/>
+            </properties>
+          </component>
+          <component id="cea1e" class="javax.swing.JLabel" binding="lblPlayerNoKPhone">
+            <constraints>
+              <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Placeholder NoK Phone"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <hspacer id="89295">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="20c46">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="7438c">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <grid id="a6222" binding="panelSkills" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="bevel-lowered"/>
+        <children>
+          <component id="b676f" class="javax.swing.JLabel" binding="lblTitleSkills">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Skills"/>
+            </properties>
+          </component>
+          <hspacer id="c96db">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="88c0b">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="f5049" class="javax.swing.JList" binding="listSkills">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="8fae9" class="javax.swing.JButton" binding="btnAddSkill">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Add Skill"/>
+            </properties>
+          </component>
+          <component id="ea7ba" class="javax.swing.JButton" binding="btnEditSkill">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Edit Skill"/>
+            </properties>
+          </component>
+          <component id="65a27" class="javax.swing.JButton" binding="btnRemoveSkill">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Remove Skill"/>
+            </properties>
+          </component>
+          <hspacer id="1cd25">
+            <constraints>
+              <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <hspacer id="976b">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+      <hspacer id="93131">
+        <constraints>
+          <grid row="1" column="8" row-span="2" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="10" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="f0704">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="8" vsize-policy="1" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="10"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <hspacer id="50f00">
+        <constraints>
+          <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="10" height="-1"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <vspacer id="46142">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="9" vsize-policy="1" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="10"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <hspacer id="f36c4">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>
